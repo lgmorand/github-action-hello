@@ -1,0 +1,14 @@
+name: 'Hello World' # Le nom de votre action (obligatoire)
+description: 'Dit bonjour à une personne' # une simple description (obligatoire)
+author: 'Louis-Guillaume MORAND' # le nom du créateur (optionnel)
+runs:
+  using: 'node12' # Action de type JavaScript utilisant NodeJS 12
+  main: 'index.js' # le point d'entrée (script principal) est un fichier index.js
+inputs: # liste des paramètres d'entrées
+  prenom: # (obligatoire) le nom du paramètre
+    description: 'Le nom de la personne' # (obligatoire) une phrase qui décrit le paramètre
+    required: true # (obligatoire) indique si le paramètre est requis ou non
+    default: 'World' # (optionnel) donne une valeur par défaut au paramètre si aucune valeur n'est renseignée
+branding:
+  icon: 'smile'  # le nom d'une des icônes disponibles
+  color: 'green' # la couleur de fond de votre icône
