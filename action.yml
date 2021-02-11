@@ -1,4 +1,4 @@
-name: 'Hello World' # Le nom de votre action (obligatoire)
+name: 'Hello World by me' # Le nom de votre action (obligatoire)
 description: 'Dit bonjour à une personne' # une simple description (obligatoire)
 author: 'Louis-Guillaume MORAND' # le nom du créateur (optionnel)
 runs:
@@ -10,5 +10,5 @@ inputs: # liste des paramètres d'entrées
     required: true # (obligatoire) indique si le paramètre est requis ou non
     default: 'World' # (optionnel) donne une valeur par défaut au paramètre si aucune valeur n'est renseignée
 branding:
-  icon: 'smile'  # le nom d'une des icônes disponibles
-  color: 'green' # la couleur de fond de votre icône
+  icon: 'message-circle'  # le nom d'une des icônes disponibles
+  color: 'orange' # la couleur de fond de votre icône
