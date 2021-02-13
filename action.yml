@@ -8,7 +8,9 @@ inputs: # liste des paramètres d'entrées
   prenom: # (obligatoire) le nom du paramètre
     description: 'Le nom de la personne' # (obligatoire) une phrase qui décrit le paramètre
     required: true # (obligatoire) indique si le paramètre est requis ou non
-    default: 'World' # (optionnel) donne une valeur par défaut au paramètre si aucune valeur n'est renseignée
+  prenom2: # (obligatoire) le nom du paramètre
+    description: 'Le nom de la personne' # (obligatoire) une phrase qui décrit le paramètre
+    required: true # (obligatoire) indique si le paramètre est requis ou non
 branding:
   icon: 'message-circle'  # le nom d'une des icônes disponibles
   color: 'orange' # la couleur de fond de votre icône
