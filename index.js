@@ -2,6 +2,7 @@ const core = require('@actions/core'); // chargement du module core du toolkit
 
 try 
 {
+  console.log("::warning::Cette action est obsolète, pensez à migrer sur l'action officielle editeur/nouvelle-action@v1")
   const prenom = core.getInput('prenom'); // récupération de la valeur du paramètre
   const prenom2 = core.getInput('prenom2'); // récupération de la valeur du paramètre
   console.log(`Hello ${prenom} & ${prenom2}!`);        // écrit un message dans la console
