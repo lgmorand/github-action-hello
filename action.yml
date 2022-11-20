@@ -1,0 +1,13 @@
+name: 'Hello World by me' # name of the action (mandatory)
+description: 'Says hello to someone' #  simple description (mandatory)
+author: 'Louis-Guillaume MORAND' # author (optional)
+runs:
+  using: 'node16' # Action de type JavaScript utilisant NodeJS 16
+  main: 'index.js' # le point d'entrée (script principal) est un fichier index.js
+inputs: # liste des paramètres d'entrées
+  firstname: # (mandatory) name of parameter
+    description: 'firstname of the person' # (mandatory) 
+    required: true # (mandatory) tells if parameter is mandatory or not
+branding:
+  icon: 'message-circle'  
+  color: 'orange' 
