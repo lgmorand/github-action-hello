@@ -8,6 +8,10 @@ inputs: # liste des paramètres d'entrées
   firstname: # (mandatory) name of parameter
     description: 'firstname of the person' # (mandatory) 
     required: true # (mandatory) tells if parameter is mandatory or not
+  firstname2: # (mandatory) name of parameter
+    description: 'firstname of the person' # (mandatory) 
+    required: true # (mandatory) tells if parameter is mandatory or not
+    default: "Jane"
 branding:
   icon: 'message-circle'  
   color: 'orange' 
