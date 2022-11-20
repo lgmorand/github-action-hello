@@ -1,4 +1,4 @@
-name: 'Hello World by me' # name of the action (mandatory)
+name: 'Hello World by LGM' # name of the action (mandatory)
 description: 'Says hello to someone' #  simple description (mandatory)
 author: 'Louis-Guillaume MORAND' # author (optional)
 runs:
@@ -8,10 +8,6 @@ inputs: # liste des paramètres d'entrées
   firstname: # (mandatory) name of parameter
     description: 'firstname of the person' # (mandatory) 
     required: true # (mandatory) tells if parameter is mandatory or not
-  firstname2: # (mandatory) name of parameter
-    description: 'firstname of the person' # (mandatory) 
-    required: true # (mandatory) tells if parameter is mandatory or not
-    default: "Jane"
 branding:
   icon: 'message-circle'  
   color: 'orange' 
