@@ -2,7 +2,7 @@ name: 'Hello World by LGM' # name of the action (mandatory)
 description: 'Says hello to someone' #  simple description (mandatory)
 author: 'Louis-Guillaume MORAND' # author (optional)
 runs:
-  using: 'node16' # Action de type JavaScript utilisant NodeJS 16
+  using: 'node20' # Action de type JavaScript utilisant NodeJS 20
   main: 'index.js' # le point d'entrée (script principal) est un fichier index.js
 inputs: # liste des paramètres d'entrées
   firstname: # (mandatory) name of parameter
